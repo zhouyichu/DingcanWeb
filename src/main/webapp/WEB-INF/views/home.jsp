@@ -46,6 +46,26 @@
     		<li class="dropdown">关于我们</li>
     	</ul>
     </div>
+    <div class="collecttype">
+    	<dl>
+            <dt>互联网类</dt>
+            <dd><a href="/list-33-1.html" target="_blank">网络营销</a></dd>
+            <dd><a href="/list-34-1.html" target="_blank">电子商务</a></dd>
+            <dd><a href="/list-42-1.html" target="_blank">新媒体运营</a></dd>
+            <dd><a href="/list-41-1.html" target="_blank">SEO优化</a></dd>
+            <dd><a href="/list-44-1.html" target="_blank">跨境电商</a></dd>
+            <dd><a href="/list-39-1.html" target="_blank">SEM投放</a></dd>
+        </dl>
+        <dl>
+            <dt>IT类</dt>
+            <dd><a href="/list-43-1.html" target="_blank">web前端工程师</a></dd>
+            <dd><a href="&amp;e=999584625CCA3D9A6D75405A9E127525" target="_blank" rel="nofollow" class="swt">大数据开发</a></dd>
+            <dd><a href="/list-40-1.html" target="_blank">JavaEE工程师</a></dd>
+        </dl>
+        <dl>
+          	<dt><a href="/list-45-1.html" target="_blank">报名须知</a></dt>
+      	</dl>
+    </div>
     <!-- end header -->
     <div class="banner-img-list slideBox">
     	<ul class="items">
@@ -57,5 +77,8 @@
     		</li>
     	</ul>
     </div>
+    <!-- begin content -->
+    
+    <!-- end content -->
 </body>
 </html>

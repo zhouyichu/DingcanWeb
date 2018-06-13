@@ -12,6 +12,9 @@
 	margin:0px auto;
 	margin-top:35px;
 }
+.nav-navbar>.list-inline{
+	margin-bottom:0px;
+}
 .list-inline>li{
 	width: 8em;
     text-align: center;
@@ -23,7 +26,7 @@
 	margin-left: 40px;
 }
 .list-inline>.allcourse{
-	width: 190px;
+	width: 200px;
 	color: #fff;
     height: 50px;
     line-height: 50px;
@@ -46,4 +49,47 @@ div.slideBox div.tips div.nums a{
 	width:40px;
 	height:5px;
 	margin: 20px 10px 0px 0px;
+}
+.collecttype{
+	position: absolute;
+    background: rgba(0,0,0,0.6);
+    z-index:1;
+    left: 355px;
+    width: 200px;
+    color: #fff;
+    padding-top:10px;
+}
+.collecttype>dl{
+	margin-bottom: 0px;
+}
+.collecttype>dl>dt{
+	height: 40px;
+	line-height: 42px;
+	padding-left:35px;
+	font-size: 16px;
+    font-weight: normal;
+}
+.collecttype dl:nth-of-type(1) dt{
+	background: url(../images/topnavicon2.png) no-repeat 10px center;
+}
+.collecttype dl:nth-of-type(2) dt{
+	background: url(../images/topnavicon3.png) no-repeat 10px center;
+}
+.collecttype dl:nth-of-type(3) dt{
+	background: url(../images/topnavicon4.png) no-repeat 10px center;
+}
+.collecttype>dl>dt>a,.collecttype>dl>dd{
+	background: url(../images/topnavicon5.png) no-repeat 175px center;
+}
+.collecttype>dl>dd:hover{
+	background:rgb(0,0,0,0.2);
+}
+.collecttype>dl>dt>a,.collecttype>dl>dd>a{
+	color:#fff;
+	font-size: 14px;
+    padding-left: 44px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    text-decoration-line: none;
 }
