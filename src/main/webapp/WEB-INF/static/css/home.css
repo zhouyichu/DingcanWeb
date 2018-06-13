@@ -93,3 +93,22 @@ div.slideBox div.tips div.nums a{
     font-weight: normal;
     text-decoration-line: none;
 }
+.container {
+    width: 1200px !important;
+    padding: 0px;
+}
+@media (min-width: 1200px){
+	.container {
+	    min-width: 1200px;
+	    padding: 0px;
+	}
+}
+.commtag{
+	background:#eeeeee;
+	height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+.commtag>span,.wraptabone{
+	float:left;
+}

@@ -78,7 +78,24 @@
     	</ul>
     </div>
     <!-- begin content -->
-    
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-9">
+    			<div class="col-md-12 commtag">
+    				<span>热门推荐</span>
+    				<div class="wraptabone"><a href="javascript:void(0)" class="tabone on">校区新闻</a>/<a href="javascript:void(0)" class="tabone">行业动态</a></div>
+    			</div>
+    		</div>
+    		<div class="col-md-3">
+    			<div class="flag-part1">
+    				<div class="topdesc"><span>三分钟了解</span>嘉华金蛛</div>
+    				<div class="dimg">
+    					123123
+	               	</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
     <!-- end content -->
 </body>
 </html>
