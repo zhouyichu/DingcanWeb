@@ -17,7 +17,7 @@
 			<ul class="nav navbar-nav">
 				<li class="active">
 					<a href="#">课程</a>
-					<div class="second_nav" style="display: block;">
+					<div class="second_nav" style="display: none;">
                     	<p>
                     		<a href="/list-33-1.html" target="_blank">电子商务</a>
                     		<a href="/list-42-1.html" target="_blank">新媒体运营</a>
@@ -42,6 +42,6 @@
 				<li><a href="#">了解鼎灿</a></li>
 			</ul>
 		</div>
-		
 	</div>
 </nav>
+<ol class="breadcrumb"></ol>

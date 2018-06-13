@@ -1,0 +1,49 @@
+.nav-top{
+	max-width:1200px;
+	margin:0 auto;
+	padding-top:25px;
+	text-align: center;
+}
+.logo2{
+	margin: 25px 0 0 32px;
+}
+.nav-navbar{
+	max-width:1200px;
+	margin:0px auto;
+	margin-top:35px;
+}
+.list-inline>li{
+	width: 8em;
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+    color: #333;
+}
+.list-inline>li:nth-child(2){
+	margin-left: 40px;
+}
+.list-inline>.allcourse{
+	width: 190px;
+	color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    background: url(../images/topnavicon1.png) no-repeat 150px center #ff4d00;
+    padding-left: 15px;
+    float: left;
+    position: relative;
+}
+div.slideBox{
+	width:100%;
+	height:400px;
+}
+div.slideBox div.tips div.nums {
+	right: 47.5%;
+}
+div.slideBox div.tips div.nums a{
+	width:40px;
+	height:5px;
+	margin: 20px 10px 0px 0px;
+}
