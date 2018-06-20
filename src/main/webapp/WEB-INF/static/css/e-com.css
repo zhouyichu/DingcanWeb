@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: #0078B5;
+}
+.breadcrumb{
+	display:none;
+}
+.banner{
+	background: url(../images/banner.jpg) center center no-repeat;
+    height: 601px;
+    position: relative;
+}
+.banner .ban_swt{
+	position: absolute;
+    left: 50%;
+    top: 490px;
+    width: 224px;
+    height: 57px;
+    margin-left: -87px;
+    text-indent: -9999px;
+}

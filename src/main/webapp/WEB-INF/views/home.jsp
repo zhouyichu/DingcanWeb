@@ -50,7 +50,7 @@
 			<li class="allcourse">全部课程</li>
 			<li class="dropdown"><span data-toggle="dropdown">线上学院</span>
 				<ul class="dropdown-menu">
-					<li>SEO</li>
+					<li><a href="#" target="_blank">SEO</a></li>
 					<li class="divider"></li>
 					<li>SEM</li>
 				</ul></li>
@@ -64,19 +64,19 @@
 		<dl>
 			<dt>互联网类</dt>
 			<dd>
-				<a href="/list-33-1.html" target="_blank">网络营销</a>
+				<a href="#" target="_blank">网络营销</a>
 			</dd>
 			<dd>
-				<a href="/list-34-1.html" target="_blank">电子商务</a>
+				<a href="/e-com" target="_blank">电子商务</a>
 			</dd>
 			<dd>
-				<a href="/list-42-1.html" target="_blank">新媒体运营</a>
+				<a href="#" target="_blank">新媒体运营</a>
 			</dd>
 			<dd>
-				<a href="/list-41-1.html" target="_blank">SEO优化</a>
+				<a href="#" target="_blank">SEO优化</a>
 			</dd>
 			<dd>
-				<a href="/list-44-1.html" target="_blank">跨境电商</a>
+				<a href="#" target="_blank">跨境电商</a>
 			</dd>
 			<dd>
 				<a href="/list-39-1.html" target="_blank">SEM投放</a>

@@ -20,4 +20,13 @@ public class PageController {
 	public String goHome(){
 		return "home";
 	}
+	
+	/**
+	 * SEO页面跳转
+	 * @return
+	 */
+	@RequestMapping("/e-com")
+	public String goSeo(){
+		return "e-com";
+	}
 }
