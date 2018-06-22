@@ -100,12 +100,77 @@
 						<p>教你打造爆款，让店铺在众多卖家中杀出重围</p>
 					</li>
 				</ul>
-				<div class="clrfix"></div>
 			</div>
 			<a href="#" target="_blank" class="part3_1 swt">点击了解详情</a>
 		</div>
 	</div>
-	
+	<div class="part4">
+		<div class="part1-title"><span>开淘宝店铺</span> 你需要掌握以下内容</div>
+		<ul class="list-inline">
+			<li>
+				<p>淘宝平台操作</p>
+				<div class="more">
+					<a href="#" rel="nofollow" target="_blank" class="swt">查看详情</a>
+				</div>
+			</li>
+			<li>
+				<p>店铺装修</p>
+				<div class="more">
+					<a href="#" rel="nofollow" target="_blank" class="swt">查看详情</a>
+				</div>
+			</li>
+			<li>
+				<p>产品美化</p>
+				<div class="more">
+					<a href="#" rel="nofollow" target="_blank" class="swt">查看详情</a>
+				</div>
+			</li>
+			<li>
+				<p>直通车与钻展</p>
+				<div class="more">
+					<a href="#" rel="nofollow" target="_blank" class="swt">查看详情</a>
+				</div>
+			</li>
+			<li>
+				<p>运营数据分析</p>
+				<div class="more">
+					<a href="#" rel="nofollow" target="_blank" class="swt">查看详情</a>
+				</div>
+			</li>
+			<li>
+				<p>活动策划</p>
+				<div class="more">
+					<a href="#" rel="nofollow" target="_blank" class="swt">查看详情</a>
+				</div>
+			</li>
+			<li>
+				<p>1688和京东运营</p>
+				<div class="more">
+					<a href="#" rel="nofollow" target="_blank" class="swt">查看详情</a>
+				</div>
+			</li>
+			<li>
+				<a href="#" target="_blank">更多课程内容</a>
+			</li>
+		</ul>
+	</div>
+	<div class="part5">
+		<div class="part1-title"><span>大咖讲师</span>助你店铺一臂之力</div>
+		<div>
+			<ul class="list-inline">
+				<li>
+					<div class="part5-item">
+						<img src="<%=request.getContextPath()%>/static/images/zt4_1.jpg">
+						<div class="more">
+							<div class="part5-subtit">杨老师</div>
+							<p>嘉华金蛛营销总监</p>
+							<p class="part5-subdis">超十年的互联网营销经验，目前运营的饰品类店铺月销售额过百万，多次受邀出席大麦电商、百度等营销行业的沙龙论坛讲座，出版的《中小网店流量宝典》以帮助数十万店主突破力量瓶颈。</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
 	<!-- end content -->
 	<!-- begin foot -->
 	<%@ include file="foot.jsp"%>
