@@ -156,19 +156,100 @@
 	</div>
 	<div class="part5">
 		<div class="part1-title"><span>大咖讲师</span>助你店铺一臂之力</div>
-		<div>
+		<div class="part5-imgList">
 			<ul class="list-inline">
-				<li>
-					<div class="part5-item">
-						<img src="<%=request.getContextPath()%>/static/images/zt4_1.jpg">
-						<div class="more">
-							<div class="part5-subtit">杨老师</div>
+				<li class="pt5-item">
+					<div class="pt5-item-sub">
+						<img alt="..." src="<%=request.getContextPath()%>/static/images/zt4_1.jpg">
+						<div class="pt5-ds">
+							<div class="pt5-item-tc">杨老师</div>
 							<p>嘉华金蛛营销总监</p>
-							<p class="part5-subdis">超十年的互联网营销经验，目前运营的饰品类店铺月销售额过百万，多次受邀出席大麦电商、百度等营销行业的沙龙论坛讲座，出版的《中小网店流量宝典》以帮助数十万店主突破力量瓶颈。</p>
+							<p class="mt10">超十年的互联网营销经验，目前运营的饰品类店铺月销售额过百万，多次受邀出席大麦电商、百度等营销行业的沙龙论坛讲座，出版的《中小网店流量宝典》以帮助数十万店主突破力量瓶颈。</p>
 						</div>
 					</div>
+					<a href="#">点击和老师交流</a>
+				</li>
+				<li class="pt5-item">
+					<div class="pt5-item-sub">
+						<img alt="..." src="<%=request.getContextPath()%>/static/images/zt4_2.jpg">
+						<div class="pt5-ds">
+							<div class="pt5-item-tc">石老师</div>
+							<p>嘉华金蛛营销总监</p>
+							<p class="mt10">中华培训网运营负责人、全国知名视频营销专家，新浪游戏、米卡米卡蛋糕、万码游戏网络营销顾问。有十余年互联网工作经验，八年门户网站运营和在线教育工作经验。实战经验丰富的网站运营专家，对视频营销、内容营销、互动营销、会员营销有着极为丰富的经验。</p>
+						</div>
+					</div>
+					<a href="#">点击和老师交流</a>
+				</li>
+				<li class="pt5-item">
+					<div class="pt5-item-sub">
+						<img alt="..." src="<%=request.getContextPath()%>/static/images/zt4_3.jpg">
+						<div class="pt5-ds">
+							<div class="pt5-item-tc">蔡老师</div>
+							<p>嘉华金蛛高级讲师</p>
+							<p class="mt10">六年天猫与皇冠店运营经验，负责过男装、内衣、3C数码等类目产品运营，注重于全渠道运营，致力于协助中小卖家实现电商转型；擅长线上资源整合，零售定位，视觉策划，竞价排名，精细化管理，实战经验丰富。擅长全网推广店铺，对eBay有丰富的运营经验。</p>
+						</div>
+					</div>
+					<a href="#">点击和老师交流</a>
+				</li>
+				<li class="pt5-item">
+					<div class="pt5-item-sub">
+						<img alt="..." src="<%=request.getContextPath()%>/static/images/zt4_4.jpg">
+						<div class="pt5-ds">
+							<div class="pt5-item-tc">丁老师</div>
+							<p>嘉华金蛛高级讲师</p>
+							<p class="mt10">多年电商从业经验，擅长利用内容营销进行爆款打造，曾将一家无人访问的店铺利用两月进行内容营销为店铺带来月流量5000+，月销售额突破50万，通过对微博粉丝引流至电商店铺，将店铺单品做到电商类目第二，年销售额突破1000万。</p>
+						</div>
+					</div>
+					<a href="#">点击和老师交流</a>
 				</li>
 			</ul>
+		</div>
+	</div>
+	<div class="part6">
+		<div class="pt6-content">
+			<div class="part1-title"><span>学习保障</span></div>
+			<ul class="list-unstyled pt-left">
+				<li class="action">参训后你将获得</li>
+				<li>参训后我们承诺</li>
+			</ul>
+			<ul class="list-unstyled pt-right">
+				<li class="course-get">
+					<p><span>课前：</span>T3平台提前预习提升学习效果</p>
+					<p><span>课中：</span>使用真实的店铺手把手实操开店</p>
+					<p><span>课后：</span>免费一对一补习帮助你查漏补缺</p>
+				</li>
+				<li class="course-promise">
+					<p>包学包会，学会为止，线上课堂配套视频，反复学习</p>
+					<p>三年知识更新，学员毕业三年内可优先报名参与校区举办的沙龙讲座，与行业大咖面对面交流</p>
+					<p>推荐就业终身猎头服务，优质就业职位对接，对岗就业</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="part7">
+		<div class="part1-title">鼎灿证书</div>
+		<div class="part7-content">
+			<img src="<%=request.getContextPath()%>/static/images/zt6.jpg">
+		</div>
+	</div>
+	<div class="part8">
+		<div class="pt8-left">
+			上鼎灿</br>
+			<span>体验</span>淘宝开店之旅</br>
+			<span>大咖指导</span>测试店铺情况
+		</div>
+		<div class="pt8-right">
+			<form class="sub" action="http://s.kawaedu.com/Visit/sub" method="post">
+	            <div class="form-group">
+	            	<label>姓名</label>
+	            	<input type="text" class="form-control" name="name">
+	            </div>
+	            <div class="form-group">
+	            	<label>电话</label>
+	            	<input type="text" class="form-control" name="name">
+	            </div>
+	            <button type="submit" class="btn btn-default">确认提交</button>
+	        </form>
 		</div>
 	</div>
 	<!-- end content -->

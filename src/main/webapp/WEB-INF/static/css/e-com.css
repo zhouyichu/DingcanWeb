@@ -87,6 +87,7 @@ a {
 .part3>.e-com-content>div>.list-inline>li{
 	width: 218px;
     height: 335px;
+    padding-top: 5px;
     float: left;
     margin-left: 65px;
     background: #313131;
@@ -213,21 +214,28 @@ a {
 .part5>.part1-title{
 	color:#fff;
 }
-.part5>.list-inline{
-	min-height:450px;
-	max-width:1045px;
+.part5-imgList{
+	max-width:1000px;
 	margin:0 auto;
 }
-.part5>.list-inline>li{
+.part5-imgList>ul>li{
 	width: 217px;
-    margin-left: 44px;
+    margin-left: 30px;
+    padding:0px;
 }
-.part5>.list-inline>li:hover .part5-item>.more{
-	top:0px;
+.pt5-item-sub{
+	width: 217px;
+    height: 332px;
+    position: relative;
+    overflow: hidden;
 }
-.part5-item>.more{
-	width: 197px;
-    height: 220px;
+.pt5-item-sub>img{
+	border: 0;
+    vertical-align: top;
+}
+.pt5-ds{
+	width: 217px;
+    height: 247px;
     padding: 15px 10px 0px;
     position: absolute;
     left: 0;
@@ -238,4 +246,141 @@ a {
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     background: rgba(35,37,63,0.8);
+}
+.pt5-item:hover .pt5-ds{
+	top:85px;
+}
+.pt5-item>a{
+	display: block;
+    background: url(../images/zt3.png) 25px center no-repeat #46cdc0;
+    padding-left: 60px;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.pt5-item-tc{
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.pt5-ds>p{
+	font-size: 12px;
+    color: #ffffff;
+    line-height: 18px;
+}
+.pt5-ds>.mt10{
+	 margin-top: 10px;
+}
+.part6{
+	background: url(../images/zt5.jpg) center center no-repeat;
+    height: 717px;
+}
+.pt6-content{
+	max-width:1000px;
+	margin:0 auto;
+}
+
+.pt6-content>.pt-left{
+	padding-top: 100px;
+    padding-left: 188px;
+    width: 450px;
+    float:left;
+}
+.pt6-content>.pt-left>li{
+	background: none;
+    color: #a0a0a0;
+    width: 260px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.pt6-content>.pt-left>li:nth-child(2){
+	margin-top: 115px;
+}
+.pt6-content>.pt-left>.action{
+	background: #46cdc0;
+    color: #ffffff;
+}
+.pt6-content>.pt-right{
+	padding-top: 145px;
+    padding-left: 30px;
+    width: 340px;
+    float:left;
+}
+.pt6-content>.pt-right>.course-get{
+	display:none;
+}
+.pt6-content>.pt-right>li>p{
+	font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.pt6-content>.pt-right>.course-get>p>span{
+	font-size: 18px;
+    color: #46cdc0;
+}
+.pt6-content>.pt-right>.course-promise{
+	margin-top:-45px;
+}
+.part7{
+	background: #46cdc0;
+    text-align: center;
+    height: 725px;
+}
+.part7>.part1-title{
+	color:#fff;
+}
+.part7>.part7-content{
+	max-width:1000px;
+	margin:0 auto;
+}
+.part8{
+	background: url(../images/zt7.jpg) center center no-repeat;
+    height: 542px;
+    position: relative;
+}
+.part8>.pt8-left{
+	position: absolute;
+    left: 50%;
+    top: 150px;
+    margin-left: -420px;
+    font-size: 36px;
+    color: #46cdc0;
+    line-height: 60px;
+}
+.part8>.pt8-left>span{
+	font-size: 36px;
+    color: #626262;
+}
+.part8>.pt8-right{
+	position: absolute;
+    left: 50%;
+    top: 100px;
+    margin-left: 160px;
+    border: 1px solid #d2d2d2;
+    background: #ffffff;
+    width: 240px;
+    height: 252px;
+    padding: 40px 30px;
+    font-size: 18px;
+    color: #626262;
+}
+.part8>.pt8-right>form>button{
+	-webkit-appearance: none;
+    background: #46cdc0;
+    color: #ffffff;
+    font-size: 18px;
+    width: 121px;
+    height: 36px;
+    text-align: center;
+    line-height: 26px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
 }

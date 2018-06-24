@@ -67,7 +67,7 @@
 				<a href="#" target="_blank">网络营销</a>
 			</dd>
 			<dd>
-				<a href="/e-com" target="_blank">电子商务</a>
+				<a href="e-com" target="_blank">电子商务</a>
 			</dd>
 			<dd>
 				<a href="#" target="_blank">新媒体运营</a>
