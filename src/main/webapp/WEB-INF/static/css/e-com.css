@@ -313,7 +313,7 @@ a {
     float:left;
 }
 .pt6-content>.pt-right>.course-get{
-	display:none;
+	display:block;
 }
 .pt6-content>.pt-right>li>p{
 	font-size: 18px;
@@ -326,6 +326,7 @@ a {
 }
 .pt6-content>.pt-right>.course-promise{
 	margin-top:-45px;
+	display:none;
 }
 .part7{
 	background: #46cdc0;

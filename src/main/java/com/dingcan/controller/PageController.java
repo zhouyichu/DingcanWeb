@@ -22,11 +22,20 @@ public class PageController {
 	}
 	
 	/**
-	 * SEO页面跳转
+	 * 电子商务页面跳转
 	 * @return
 	 */
 	@RequestMapping("/e-com")
-	public String goSeo(){
+	public String goECom(){
 		return "e-com";
+	}
+	
+	/**
+	 * 网络营销页面跳转
+	 * @return
+	 */
+	@RequestMapping("/web-sales")
+	public String goWebSales(){
+		return "web-sales";
 	}
 }

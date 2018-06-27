@@ -1,0 +1,71 @@
+a {
+    text-decoration: none;
+    color: #0078B5;
+}
+.breadcrumb{
+	display:none;
+}
+.web-sales-content{
+	max-width:1440px;
+	min-width:1100px;
+	margin: 0 auto;
+    position: relative;
+}
+#myCarousel{
+	width: 100%;
+    height: 784px;
+}
+#myCarousel>.carousel-indicators{
+	bottom:140px;
+}
+.point{
+	position: absolute;
+    width: 953px;
+    left: 50%;
+    margin-left: -476px;
+    top: 625px;
+    z-index: 99;
+}
+.palyVideo{
+	width: 100%;
+    height: 800px;
+    background: url(../images/1500618108943636.png) no-repeat;
+    position: relative;
+}
+.videoBox {
+    position: absolute;
+    width: 487px;
+    height: 328px;
+    left: 183px;
+    top: 210px;
+    background: #2b2b2b;
+    z-index: 88;
+}
+.videoBox h1 {
+    margin-top: 30px;
+    position: relative;
+}
+.videoBox h1 span {
+    position: absolute;
+    left: 50%;
+    margin-left: -52px;
+    top: 50%;
+    margin-top: -52px;
+    cursor: pointer;
+}
+.bs-example-modal-lg{
+	top:10%;
+}
+.bs-example-modal-lg>.modal-lg>.modal-content>video{
+	width:100%;
+	height:100%;
+}
+.charts{
+	width: 100%;
+    height: 700px;
+}
+.charts img {
+    width: 1087px;
+    display: block;
+    margin: 90px auto;
+}

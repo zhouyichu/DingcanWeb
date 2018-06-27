@@ -64,7 +64,7 @@
 		<dl>
 			<dt>互联网类</dt>
 			<dd>
-				<a href="#" target="_blank">网络营销</a>
+				<a href="web-sales" target="_blank">网络营销</a>
 			</dd>
 			<dd>
 				<a href="e-com" target="_blank">电子商务</a>

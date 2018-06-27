@@ -29,6 +29,22 @@
 
 <title>鼎灿科技-电子商务</title>
 </head>
+<script type="text/javascript">
+	$(function(){
+		$(".you-get").click(function(){
+			$(".you-get").addClass("action");
+			$(".we-promise").removeClass("action");
+			$(".course-get").css("display","block");
+			$(".course-promise").css("display","none");
+		});
+		$(".we-promise").click(function(){
+			$(".you-get").removeClass("action");
+			$(".we-promise").addClass("action");
+			$(".course-promise").css("display","block");
+			$(".course-get").css("display","none");
+		});
+	})
+</script>
 <body>
 	<!-- begin header -->
 	<%@ include file="header.jsp"%>
@@ -209,8 +225,8 @@
 		<div class="pt6-content">
 			<div class="part1-title"><span>学习保障</span></div>
 			<ul class="list-unstyled pt-left">
-				<li class="action">参训后你将获得</li>
-				<li>参训后我们承诺</li>
+				<li class="action you-get">参训后你将获得</li>
+				<li class="we-promise">参训后我们承诺</li>
 			</ul>
 			<ul class="list-unstyled pt-right">
 				<li class="course-get">
