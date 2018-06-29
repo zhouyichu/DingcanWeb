@@ -69,3 +69,109 @@ a {
     display: block;
     margin: 90px auto;
 }
+.advantage{
+	width: 100%;
+    height: 890px;
+    box-sizing: border-box;
+    padding: 88px 0;
+    background: url(../images/1501040493469811.png) no-repeat;
+}
+.advantage>h1{
+	font-size: 38px;
+    color: #fff;
+    font-family: '微软雅黑';
+    font-weight: 700;
+    text-align: center;
+}
+.advantage>ul{
+    width: 1200px;
+    margin: 0 auto;
+}
+.advantage>ul>li{
+	width: 205px;
+    height: 459px;
+    margin-left: 39px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+.advantage>ul>li:hover{
+	transform: scale(1.2);
+}
+.advantage>ul>li>h2{
+	width: 205px;
+    position: relative;
+}
+.advantage>ul>li>h3{
+	margin-top: 2px;
+    width: 205px;
+    height: 172px;
+    background: #3a3a3b;
+    padding: 32px 20px;
+    box-sizing: border-box;
+    line-height: 28px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.advantage>ul>li:nth-child(1){
+	margin-left:0px;
+}
+.advantage>ul>li:nth-child(1) h3{
+	border-top: 6px solid #2e648b;
+}
+.advantage>ul>li:nth-child(2) h3{
+	border-top: 6px solid #fcc818;
+}
+.advantage>ul>li:nth-child(3) h3{
+	border-top: 6px solid #ea5322;
+}
+.advantage>ul>li:nth-child(4) h3{
+	border-top: 6px solid #00b0f0;
+}
+.advantage>ul>li:nth-child(5) h3{
+	border-top: 6px solid #b52bc5;
+}
+.education {
+    width: 100%;
+    height: 981px;
+    background: url(../images/1501493137689025.png) no-repeat;
+    position: relative;
+}
+.educationList{
+	position: absolute;
+    left: 215px;
+    top: 463px;
+}
+.educationList>li{
+	font-size: 20px;
+    color: #5e85a8;
+    line-height: 50px;
+    cursor: pointer;
+}
+.educationList>li>p{
+	margin-bottom:0px;
+}
+.educationList>.active{
+	color: #fff;
+}
+.educationCon {
+    position: absolute;
+    left: 635px;
+    top: 420px;
+}
+.educationCon ol li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.educationCon ol li p{
+	margin-bottom:0px;
+}
+.educationCon ol li.pic {
+    position: absolute;
+    left: 172px;
+    top: 5px;
+    width: 390px;
+    height: 322px;
+}

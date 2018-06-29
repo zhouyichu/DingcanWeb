@@ -103,6 +103,76 @@
 		<div class="charts">
 			<img class="img-responsive" src="<%=request.getContextPath()%>/static/images/1503912519229175.png" alt=""/>
 		</div>
+		<div class="advantage">
+			<h1>五大理由</h1>
+			<h1>告诉你我们的课程优势</h1>
+			<ul class="list-inline">
+				<li>
+					<h2>
+						<img alt="" src="<%=request.getContextPath()%>/static/images/1501039618199936.png"/>
+						1
+					</h2>
+					<h3>O2O多场景教学模式 包括在线学习平台 线下专家面授 互联网+教材</h3>
+				</li>
+				<li>
+					<h2>
+						<img alt="" src="<%=request.getContextPath()%>/static/images/1501039910316941.png"/>
+						2
+					</h2>
+					<h3>O2O多场景教学模式 包括在线学习平台 线下专家面授 互联网+教材</h3>
+				</li>
+				<li>
+					<h2>
+						<img alt="" src="<%=request.getContextPath()%>/static/images/1501039925304816.png"/>
+						3
+					</h2>
+					<h3>O2O多场景教学模式 包括在线学习平台 线下专家面授 互联网+教材</h3>
+				</li>
+				<li>
+					<h2>
+						<img alt="" src="<%=request.getContextPath()%>/static/images/1501039959362172.png"/>
+						4
+					</h2>
+					<h3>O2O多场景教学模式 包括在线学习平台 线下专家面授 互联网+教材</h3>
+				</li>
+				<li>
+					<h2>
+						<img alt="" src="<%=request.getContextPath()%>/static/images/1501039971858716.png"/>
+						5
+					</h2>
+					<h3>O2O多场景教学模式 包括在线学习平台 线下专家面授 互联网+教材</h3>
+				</li>
+			</ul>
+		</div>
+		<div class="education">
+			<ul class="list-unstyled educationList">
+				<li class="active"><p>新媒体运营</p></li>
+				<li><p>搜索引擎营销</p></li>
+				<li><p>电商平台运营</p></li>
+			</ul>
+			<div class="educationCon">
+				<ol class="list-paddingleft list-unstyled">
+					<li><p>网民心理分析</p></li>
+					<li><p>有吸引力的标题编写</p></li>
+					<li><p>软文营销</p></li>
+					<li><p>自媒体平台运营</p></li>
+					<li><p>视频营销技巧</p></li>
+					<li><p>微信营销</p></li>
+					<li><p>微信公众号运营</p></li>
+					<li><p>公众号二次开发</p></li>
+					<li><p>H5微海报页面制作</p></li>
+					<li><p>“个人+公众”联动营销</p></li>
+					<li><p>微博营销</p></li>
+					<li><p>QQ产品组合营销</p></li>
+					<li><p>问答营销</p></li>
+					<li><p>自媒体全网营销</p></li>
+					<li><p>全网营销管理</p></li>
+					<li class="pic">
+						<img src="<%=request.getContextPath()%>/static/images/zt1_3.jpg">
+					</li>
+				</ol>
+			</div>
+		</div>
 	</div>
 	<!-- end content -->
 	<!-- begin foot -->
